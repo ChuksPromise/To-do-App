@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.promisechuks.TODOLISTAPP"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "aa7aaa58-1a44-4db1-8c4d-e09e6f13c15e"
+      }
+    },
+    "owner": "promisechuks"
   }
 }

@@ -3,8 +3,6 @@ import { StatusBar } from 'expo-status-bar';
 import { useState } from "react";
 import {View, StyleSheet, Text, TouchableOpacity, FlatList, Button, TextInput} from 'react-native';
 import { Modal } from "react-native";
-import Logo from './assets/logo.jpg';
-import { Image } from "expo-image";
 
 const App = () =>  {
   const displayAlert = () =>{
@@ -60,9 +58,9 @@ const App = () =>  {
         <View style={styles.modalBody}>
           <Modal visible={modalIsVisible}>
             <View style={styles.modalStyle}>
-              <View style={styles.imgBody}>
+              {/* <View style={styles.imgBody}>
                 <Image source={{uri: 'asset:/icon.jpg'}} style={{width: 100, height: 300}}/>
-              </View>
+              </View> */}
               <View>
                 <TextInput
                   keyboardType="default"
